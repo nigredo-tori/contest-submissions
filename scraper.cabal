@@ -1,0 +1,20 @@
+name:                scraper
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            https://github.com/nigredo-tori/scraper#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Dmitry Polienko
+maintainer:          nigredo.tori@gmail.com
+copyright:           2016 Dmitry Polienko
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable scraper
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, hxt, http-conduit, text, text-icu,
+                       bytestring, split, MissingH, csv
